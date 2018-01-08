@@ -107,6 +107,51 @@ figure{
     margin-right: auto;  
 }
 
+footer{
+    height: 100%;
+    font-size: 18px;
+    padding: 7px;
+    display: flex;
+    flex-direction: row;
+    background: #C6d5c5; 
+    
+    
+}
+.contacto{
+   display: flex;
+    flex-direction: column;
+    width: 25%;
+    text-align: justify;
+      
+}
+.terminos{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    text-align: justify;
+   
+}
+.redessociales{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    text-align: justify;
+  
+}
+.derechos{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    text-align: justify;
+}
+#p{
+    font-size: 18px;
+}
+#facebook{
+   
+        
+}
+
     @media and(max-width:900px){
         #contenido{
             width: 100%;
@@ -153,7 +198,7 @@ figure{
         }
         
         img{
-            width: 90%;
+           
             display: flex;
             margin: 1% auto; 
             
@@ -171,12 +216,28 @@ figure{
     
         
      
-       #imagen2,#imagen3{
+       #imagen1,#imagen2,#imagen3{
         width: 100%;
         display: flex;
         flex-wrap: wrap;
        transform: scale(0.9)
         
+        }
+       
+        footer{
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            flex-flow: wrap;
+        }
+        
+       .contacto,.termino,.redessociales,.derechos{
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        flex-flow: wrap;
+        text-align: justify;
+            
         }
         
     }
